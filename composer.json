@@ -1,0 +1,15 @@
+{
+  "name": "joey/weather",
+  "autoload": {
+    "psr-4": {
+      "Joey\\Weather\\": "./src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4",
+    "mockery/mockery": "^1.4"
+  }
+}
